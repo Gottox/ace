@@ -32,6 +32,7 @@
     },
     "scripts": {
         "start": "node static.js",
-        "test": "node lib/ace/test/all.js"
+        "test": "node lib/ace/test/all.js",
+        "prepublish": "node Makefile.dryice.js full --target src"
     }
 }
